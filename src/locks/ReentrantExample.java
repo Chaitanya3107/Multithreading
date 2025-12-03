@@ -1,5 +1,6 @@
 package locks;
 
+import java.util.Scanner;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -28,5 +29,8 @@ public class ReentrantExample {
     public static void main(String[] args) {
         ReentrantExample example = new ReentrantExample();
         example.outerMethod();
+
+        int n = Integer.MAX_VALUE;
+
     }
 }
